@@ -1,0 +1,91 @@
+// stellar
+
+
+/* parent element */
+
+
+// 	applies to all immediate children
+//
+// 	position the children elements in a .row; or a .column;
+//
+// 	use @left, @center(or @centre), @right or @spread for x-axis 
+// 	positioning
+//
+// 	use @top, @center(or @centre), @bottom or @spread for y-axis 
+// 	positioning
+//	
+// 	when using default values, leave blank the corresponding
+// 	axis and value
+//
+// 	defaluts: 	.row(@x: @left; @y: @top;); 
+//				.column(@x: @left; @y: @top;)
+
+
+.row(@x: @left; @y: @top;) {
+	-webkit-align-items: @y;
+	-ms-align-items: @y;
+	align-items: @y;
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display: flex;
+	display: flex;
+	-webkit-flex-dierction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-justify-content: @x;
+	-ms-justify-content: @x;
+	justify-content: @x;
+}
+
+.column(@x: @left; @y: @top;) {
+	-webkit-align-items: @x;
+	-ms-align-items: @x;
+	align-items: @x;
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display: flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-justify-content: @y;
+	-ms-justify-content: @y;
+	justify-content: @y;
+}
+
+
+/* child element */
+
+//	use to give a particular child a different positioning than its 	
+//	siblings.
+//
+//	applies to a child element which has been positioned with .row; or
+//	.column; function before.
+//
+// 	use .odd(row; @y: value;); when .row; is used on the parent element and .odd(column; @x:
+//	value;); when .column; is used on the parent element.
+//
+// 	a row-arranged child can get a different @y position and a column-arranged a different @x
+//	position.
+//
+// 	values @x and @y can get are the same as for parent elements.
+
+
+.odd(row; @y: @top;) {
+	align-self: @y;
+}
+
+.odd(column; @x: @left;) {
+	align-self: @x;
+}
+
+/* var */
+
+@center: center;
+@centre: center;
+@top: flex-start;
+@bottom: flex-end;
+@spread: space-between;
+@left: flex-start;
+@middle: center;
+@right: flex-end;
