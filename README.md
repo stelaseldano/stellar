@@ -1,9 +1,9 @@
-## Stellar is a LESS library for easy and fast webapp scaffolding.
+## stellar is a LESS library for easy and fast webapp scaffolding.
 
 **It is good at:**
 
 * vertical align;
-* and..centering of everything;
+* and..centering things;
 * arranging in rows (for wide screens) and columns (for small screens);
 and of course
 * responsive design with just a few lines of code.
@@ -11,6 +11,7 @@ and of course
 **And easy because:**
 
 there is a **parent** (element) and it has **children** (elements)..and the parent says how his children are arranged in terms of x-axis and y-axis.
+
 
 
 ### How to use:
@@ -23,7 +24,7 @@ Use ``.row();`` or ``.column();`` on a parent element to arrange its children in
 
 Inside the brackets you can use ``@x:`` and ``@y:`` to specify how the children are positioned on the corresponding axis. 
 
-Use ``@left;``, ``@center;``, ``@right;`` or ``@spread;`` for x-axix positioning.
+Use ``@left;``, ``@center;``, ``@right;`` or ``@spread;`` for x-axis positioning.
 Use ``@top;``, ``@center;``, ``@bottom;`` or ``@spread;`` for y-axis positioning.
 
 
@@ -64,7 +65,7 @@ Use ``.odd(column; @x: value;);`` when the children are arranged in a ``.column;
 
 **HTML code**
 
-	<div class="container-1">
+	<div class="container">
 		<div class="child"></div>
 		<div class="child"></div>
 		<div class="child naughty"></div>
@@ -74,7 +75,7 @@ Use ``.odd(column; @x: value;);`` when the children are arranged in a ``.column;
 
 **LESS code**
 
-	.container-1 {
+	.container {
 		.row(@x: @center; @y: @top);
 		height: 100vh;
 		width: 960px;
@@ -89,7 +90,25 @@ Use ``.odd(column; @x: value;);`` when the children are arranged in a ``.column;
 	}
 
 
+
+## Install
+
+
+$ bower install stellar-less
+
+in your .less file:
+
+@import "bower_components/stellar/stellar";
+
+
+
+## Browser support
+
+
+
+
+
+## More samples
+
+
 For more complex samples in an interactive playground, please visit [http://stellar.stelavit.com](http://www.stellar.stelavit.com/).
-
-
-## Install stuff

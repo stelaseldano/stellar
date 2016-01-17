@@ -14,7 +14,7 @@
 // 	use @top, @center(or @centre), @bottom or @spread for y-axis 
 // 	positioning
 //	
-// 	when using default values, leave blank the corresponding
+// 	when using default values, you can leave blank the corresponding
 // 	axis and value
 //
 // 	defaluts: 	.row(@x: @left; @y: @top;); 
@@ -68,14 +68,18 @@
 // 	a row-arranged child can get a different @y position and a column-arranged a different @x
 //	position.
 //
-// 	values @x and @y can get are the same as for parent elements.
+// 	values @x and @y can get are the same as for parent elements(except @spread;).
 
 
 .odd(row; @y: @top;) {
+	-ms-align-self: @y;
+	-webkit-align-self: @y;
 	align-self: @y;
 }
 
 .odd(column; @x: @left;) {
+	-ms-align-self: @x;
+	-webkit-align-self: @x;
 	align-self: @x;
 }
 
