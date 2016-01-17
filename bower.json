@@ -1,0 +1,11 @@
+{
+  "name": "stellar",
+  "authors": [
+    "stelaseldano <stella.plamenova@gmail.com>"
+  ],
+  "description": "A LESS library for easy and fast webapp scaffolding.",
+  "main": "stellar.less",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": ""
+}
