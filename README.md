@@ -47,7 +47,7 @@ If using a default value, the property and its corresponding value can be skippe
 A child can get a different positioning than the rest of the children.
 
 Use ``.odd(row; @y: value;);`` when the children are arranged in a ``.row;``.
-(values ``@top``, ``@center``, ``@bottom``).
+(values: ``@top``, ``@center``, ``@bottom``).
 
 Use ``.odd(column; @x: value;);`` when the children are arranged in a ``.column;``.
 (values: ``@left``, ``@center``, ``@right``).
