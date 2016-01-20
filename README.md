@@ -102,13 +102,8 @@ in your .less file:
 
 
 
-## Browser support
-
-
-
-
-
 ## More samples
 
+Under construction
 
 For more complex samples in an interactive playground, please visit [http://stellar.stelavit.com](http://www.stellar.stelavit.com/).
