@@ -1,4 +1,4 @@
-## stellar is a LESS library for easy and fast webapp scaffolding.
+## stellar is a LESS library for easy and fast webapp scaffolding
 
 **It is good at:**
 
@@ -14,10 +14,10 @@ there is a **parent** (element) and it has **children** (elements)..and the pare
 
 
 
-### How to use:
+## How to use:
 
 
-*First, let's see what the parent can do to children.*
+* *First, let's see what the parent can do to children.*
 
 
 Use ``.row();`` or ``.column();`` on a parent element to arrange its children in a row or a column.
@@ -41,7 +41,7 @@ If using a default value, the property and its corresponding value can be skippe
 Тhis: ``.row(@x: center; @y: @top);`` is the same like ``.row(@x: center;);``.
 
 
-*And now, what children can do despite their parent's say.*
+* *And now, what children can do despite their parent's say.*
 
 
 A child can get a different positioning than the rest of the children.
@@ -91,19 +91,32 @@ Use ``.odd(column; @x: value;);`` when the children are arranged in a ``.column;
 
 
 
+## Browser Support
+
+* Chrome **21+**
+* Firefox **22+**
+* IE **11**
+* Edge
+* Opera **12.10+**
+* Safari **6.1+**
+
+#### Issues
+
+IE 11 does not position the children elements along y-axis correctly if the parent has ``min-height``. If you need to set ``min-height`` to the parent element, use ``height`` as well.
+
+
+
 ## Install
 
 
-$ bower install stellar-less
+``$ bower install stellar-less``
 
 in your .less file:
 
-@import "bower_components/stellar/stellar";
+``@import "*path/to/stellar/*stellar";``
 
 
 
 ## More samples
-
-Under construction
 
 For more complex samples in an interactive playground, please visit [http://stellar.stelavit.com](http://www.stellar.stelavit.com/).
