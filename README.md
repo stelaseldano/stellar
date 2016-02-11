@@ -46,17 +46,17 @@ If using a default value, the property and its corresponding value can be skippe
 
 A child can get a different positioning than the rest of the children.
 
-Use ``.odd(row; @y: value;);`` when the children are arranged in a ``.row;``.
+Use ``.naughty(row; @y: value;);`` when the children are arranged in a ``.row;``.
 (values: ``@top``, ``@center``, ``@bottom``).
 
-Use ``.odd(column; @x: value;);`` when the children are arranged in a ``.column;``.
+Use ``.naughty(column; @x: value;);`` when the children are arranged in a ``.column;``.
 (values: ``@left``, ``@center``, ``@right``).
 
 
 **Default values:**
 
-		.odd(row; @y: @top;);
-		.odd(column; @x: @left;);
+		.naughty(row; @y: @top;);
+		.naughty(column; @x: @left;);
 
 
 
