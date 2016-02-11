@@ -113,7 +113,7 @@ IE 11 does not position the children elements along y-axis correctly if the pare
 
 in your .less file:
 
-``@import "*path/to/stellar/*stellar";``
+``@import "path/to/stellar/stellar";``
 
 
 
