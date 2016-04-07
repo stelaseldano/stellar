@@ -4,8 +4,8 @@
     "stelaseldano <stella.plamenova@gmail.com>"
   ],
   "description": "A LESS library for easy and fast webapp scaffolding.",
+  "keywords": ["less", "scaffolding", "flexbox", "stellar"],
   "main": "stellar.less",
-  "moduleType": [],
   "license": "MIT",
-  "homepage": ""
+  "homepage": "http://stellar.stelavit.com"
 }
