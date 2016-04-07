@@ -85,7 +85,7 @@ Use ``.naughty(column; @x: value;);`` when the children are arranged in a ``.col
 			width: 100px;
 		}	
 		.naughty {
-			.odd(row; @y: @center;);
+			.naughty(row; @y: @center;);
 		}
 	}
 
