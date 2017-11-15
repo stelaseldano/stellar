@@ -1,0 +1,16 @@
+{
+  "name": "stellar-less",
+  "version": "0.3.1",
+  "description": "LESS library for easy and fast webapp scaffolding",
+  "main": "stellar.less",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stelaseldano/stellar.git"
+  },
+  "author": "Stela Seldano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stelaseldano/stellar/issues"
+  },
+  "homepage": "https://github.com/stelaseldano/stellar#readme"
+}
