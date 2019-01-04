@@ -62,7 +62,6 @@ Use ``.naughty(column; @x: value;);`` when the children are arranged in a ``.col
 
 ## Sample
 
-
 **HTML code**
 
 	<div class="container">
@@ -109,7 +108,7 @@ IE 11 does not position the children elements along y-axis correctly if the pare
 ## Install
 
 
-``$ bower install stellar-less``
+``$ npm install stellar-less``
 
 in your .less file:
 
